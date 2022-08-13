@@ -78,6 +78,7 @@ button {
     margin-top: 9px;
     border-radius: 0.4rem;
     color: hsl(204, 43%, 93%);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
 }
 button:hover {
     background-color: white;
