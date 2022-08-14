@@ -75,6 +75,7 @@ button {
     padding: 15px 80px;
     background-color: hsl(71, 73%, 54%);
     border: none;
+    cursor: pointer;
     margin-top: 9px;
     border-radius: 0.4rem;
     color: hsl(204, 43%, 93%);
@@ -106,3 +107,57 @@ button:hover {
     color: white;
 }
 
+@media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: auto; 
+        margin: 2rem;
+    }
+    .container div {
+        font-family: 'Karla';
+        Font-size: 10px;
+        font-weight: 400, 700;
+    }
+    .item1 {
+        padding: 35px;
+        padding-right: 10px;
+        margin-bottom: -15px;
+    }
+    .item1 p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 6px;
+        
+    }
+    .item1 h3 {
+        font-size: 16px;
+    }
+    .item2 {
+        padding: 10px 0 20px 20px;
+        border-bottom-left-radius: 0;
+    }
+    .item2 h2 {
+     font-size: 15px;
+    }
+    .item2 p {
+        font-size: 14px;
+    }
+    button {
+        padding: 15px 100px;
+        margin-top: 12px;
+    }
+    .price_tag h5 {
+        font-size: 14px;
+    }
+    .item3 {
+        padding-left: 25px;
+        border-bottom-left-radius: 0.5rem;
+    }
+} 
+
+@media screen and (max-width: 344px) {
+    button {
+        padding: 10px 40px;
+    }
+}
