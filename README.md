@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./grid image/price-grid.jpg)
+![](./grid%20image/price-grid.jpg)
 
 
 ### Links
