@@ -107,7 +107,7 @@ button:hover {
     color: white;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -156,8 +156,10 @@ button:hover {
     }
 } 
 
-@media screen and (max-width: 344px) {
+@media screen and (max-width: 280px) {
     button {
-        padding: 10px 40px;
+        padding: 8px 40px;
+        margin-left: -0.5rem; 
     }
 }
+
